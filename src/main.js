@@ -75,7 +75,7 @@ function renderSetup() {
 
 document.addEventListener('click', (event) => {
   const mode = event.target.closest('[data-mode]')?.dataset.mode;
-  if (mode) { state.mode = mode; if (state.phase === 'setup') { if (mode === 'wall') state.wallReady = !state.wallReady; else state.rescuerReady = !state.rescuerReady; } save(); render(); return; }
+  if (mode) { state.mode = mode; save(); render(); return; }
   const choice = event.target.closest('[data-choice]');
   if (choice) {
     const active = missions[state.mission];
