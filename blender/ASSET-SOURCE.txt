@@ -1,0 +1,11 @@
+Final 3D asset target:
+https://sketchfab.com/3d-models/egyptian-pyramid-with-the-interior-b012979d7143445daa37bf34627241df
+
+The model page describes an Egyptian pyramid with interior chambers and passages.
+Confirm the current download and Creative Commons attribution terms on the source
+page before redistributing the downloaded file. Place the exported GLB here as:
+
+public/assets/pyramid-interior/pyramid-interior.glb
+
+The web scene is intentionally kept ready for this asset slot; no unlicensed
+third-party model is bundled into the repository.
